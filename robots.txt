@@ -1,0 +1,9 @@
+# Aayut. Public pages may be crawled. Private pages (portal, patient form,
+# staff app) are kept out of search with a noindex tag, so they are not blocked here:
+# a crawler must be able to fetch a page to read its noindex tag.
+# Crawlers only read this file from the root of the domain. On GitHub Pages
+# project sites that is the user site repo (aayutayurveda-art.github.io).
+User-agent: *
+Allow: /
+
+Sitemap: https://aayutayurveda-art.github.io/ayurveda/sitemap.xml
